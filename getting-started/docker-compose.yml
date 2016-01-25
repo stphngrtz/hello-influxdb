@@ -1,0 +1,9 @@
+influxdb:
+  image: "tutum/influxdb:0.9"
+  name: influxdb
+  ports:
+    - "8083:8083"
+    - "8086:8086"
+  expose:
+    - "8090"
+    - "8099"
